@@ -16,16 +16,16 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Your Name"  # (translatable)
-BLOG_TITLE = "Demo Site"  # (translatable)
+BLOG_AUTHOR = "quokka trade"  # (translatable)
+BLOG_TITLE = "Quokka Tradeフォーラム"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://example.com/"
+SITE_URL = "https://master--dazzling-rolypoly-c750cf.netlify.app/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "joe@demo.site"
-BLOG_DESCRIPTION = "This is a demo site for Nikola."  # (translatable)
+BLOG_DESCRIPTION = "Quokka Tradeフォーラムのテスト"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -91,7 +91,7 @@ BLOG_DESCRIPTION = "This is a demo site for Nikola."  # (translatable)
 # in the default language will be shown instead.
 
 # What is the default language?
-DEFAULT_LANG = "en"
+DEFAULT_LANG = "ja"
 
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
@@ -1197,6 +1197,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # Set this to False if you want to host your site without requiring access to
 # external resources.
 # USE_CDN = False
+USE_CDN = True
 
 # Check for USE_CDN compatibility.
 # If you are using custom themes, have configured the CSS properly and are
@@ -1209,6 +1210,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # (translatable)
 EXTRA_HEAD_DATA = """\
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
 """
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
