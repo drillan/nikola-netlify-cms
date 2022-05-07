@@ -7,6 +7,7 @@ slug: markdown_article
 tags: 'python'
 title: Markdownの記事
 type: text
+author: driller
 ---
 
 この記事はMarkdownで記述しています
